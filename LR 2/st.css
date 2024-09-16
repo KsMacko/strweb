@@ -9,3 +9,27 @@ body{
     width: 100%;
     max-width: 1440px;
 }
+@font-face {
+    font-family: 'Intern';
+    src: url('/font/1601705654gj.ttf');
+}
+@font-face {
+    font-family: 'Mulan';
+    src: url('/font/16016296499m.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Doctor';
+    src: url('/font/160170559998.ttf') format('truetype');
+}
+.Intern{
+    font-family: Intern;
+    font-size: 40px;
+}
+.Doctor{
+    font-family: Doctor;
+    font-size: 40px;
+}
+.Mulan{
+    font-family: Mulan;
+    font-size: 40px;
+}
