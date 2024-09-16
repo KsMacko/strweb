@@ -15,11 +15,15 @@ body{
 }
 @font-face {
     font-family: 'Mulan';
-    src: url('/font/16016296499m.ttf') format('truetype');
+    src: url('/font/16016296499m.ttf') ;
 }
 @font-face {
     font-family: 'Doctor';
-    src: url('/font/160170559998.ttf') format('truetype');
+    src: url('/font/160170559998.ttf');
+}
+@font-face {
+    font-family: 'Cherepashka';
+    src: url('/font/cherepashka.ttf');
 }
 .Intern{
     font-family: Intern;
@@ -33,6 +37,10 @@ body{
 .Mulan{
     font-family: Mulan;
     text-align: left;
+}
+.myfont{
+    font-family: Cherepashka;
+    font-size: 40px;
 }
 .List a{
     color: black;
