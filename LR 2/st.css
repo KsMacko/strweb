@@ -11,19 +11,19 @@ body{
 }
 @font-face {
     font-family: 'Intern';
-    src: url('/font/1601705654gj.ttf');
+    src: url('../font/1601705654gj.ttf');
 }
 @font-face {
     font-family: 'Mulan';
-    src: url('/font/16016296499m.ttf') ;
+    src: url('../font/16016296499m.ttf') ;
 }
 @font-face {
     font-family: 'Doctor';
-    src: url('/font/160170559998.ttf');
+    src: url('../font/160170559998.ttf');
 }
 @font-face {
     font-family: 'Cherepashka';
-    src: url('/font/cherepashka.ttf');
+    src: url('../font/cherepashka.ttf');
 }
 .Intern{
     font-family: Intern;
