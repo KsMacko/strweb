@@ -3,7 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
+    <link rel="stylesheet" href="doramstyle.css">
 </head>
 <body>
+<!--Значения атрибутов action и method элемента
+<form> определяют URL, который обрабатывает данные
+формы, и HTTP-метод, используемый для отправки данных,
+соответственно. По умолчанию данные формы отправляются
+на текущую страницу. В противном случае установите
+атрибут action в значение URL, куда должны быть
+отправлены данные.-->
+<form id="fan_form">
+    <h1>Анкета клуба любителей ДОРАМ</h1>
+    <label>Введите имя пользователя
+        <input type="text" name="username" size="35" maxlength="20"/>
+    </label>
+    <hr />
+    <label>Введите пароль
+        <input type="password" name="password" size="25" maxlength="20"/>
+    </label>
+    <hr />
+    <fieldset>
+        <legend>Контактная информация</legend>
+    <label>Введите электронную почту
+        <input type="email" name="email" size="25" maxlength="60"/>
+    </label>
+        <br />
+    <label>Оставьте телефончик (вам Чимин позвонит)
+        <input type="tel" name="tel"/>
+    </label>
+    </fieldset>
+    <hr />
+    <label>Пол?<br />
+        <ul style=" list-style-type: none;">
+            <li><input type="radio" name="gender" value="man"/> Мужской</li>
+            <li><input type="radio" name="gender" value="woman"/> Женский</li>
+            <li><input type="radio" name="gender" value="floor" checked="checked"/> <i>Ламинат</i></li>
+        </ul>
+    </label>
+    <hr />
+    <label>Загрузите аватарку
+        <input type="file" name="avatar"/>
+    </label>
+    <hr />
+    <label>Где вы смотрите дорамы?
+    <ul style=" list-style-type: none;">
+        <li><input type="checkbox" name="place" value="home"/> Дома</li>
+        <li><input type="checkbox" name="place" value="work"/> На работе</li>
+        <li><input type="checkbox" name="place" value="study"/> На учебе</li>
+        <li><input type="checkbox" name="place" value="street"/> На улице</li>
+        <li><input type="checkbox" name="place" value="restroom"/> На туалете</li>
+        <li><input type="checkbox" name="place" value="somewhere"/> И еще много где</li>
+    </ul>
+    </label>
+    <hr />
+    <label>Чимин подчистит все
+        <input type="reset" name="reset"/>
+    </label>
+    <hr />
+    <label>Сохранить
+        <input type="submit" name="submit"/>
+    </label>
+</form>
 </body>
 </html>

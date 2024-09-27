@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("../resources/doram.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: 50%;
+}
+#fan_form{
+    background-color: rgba(255, 247, 232,0.7);
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+
+}
