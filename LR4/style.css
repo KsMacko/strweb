@@ -56,7 +56,7 @@ a:hover{
 button {
   position: relative;
   animation: move .2s infinite;
-  transition: background-color 0.5s;
+  transition: 10s;
 }
 button:hover{
   animation: none;
@@ -75,14 +75,14 @@ button:hover{
   height: 50px;
   background-color: red;
   border-radius: 50%;
-  animation: bounce 4s ease-in infinite;
+  animation: bounce 4s ease-in-out infinite;
 }
 @keyframes bounce {
   0% { bottom: 100%; transform: scaleY(1); }
   13% { bottom: 10%; transform: scaleY(1); }
   15% { bottom: 0; transform: scaleY(0.6); }
   30% { bottom: 45%; transform: scaleY(1); }
-  40% { bottom: 10%; transform: scaleY(1); }
+  40% { bottom: 5%; transform: scaleY(1); }
   45% { bottom: 0; transform: scaleY(0.8); }
   55% { bottom: 20%; transform: scaleY(1); }
   75% { bottom: 0; transform: scaleY(0.9); }
