@@ -49,3 +49,38 @@ html {
 .adaptive > article:nth-child(8) { grid-area: h; }
 .adaptive > article:nth-child(9) { grid-area: i; }
 .adaptive > article:nth-child(10) { grid-area: j; }
+img{
+  width: 200px;
+  height: 200px;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+}
+.gallery img {
+  position:   relative;
+  transition: transform 0.3s ease;
+}
+@media (max-width: 849px) {
+  .gallery {
+    gap: 0;
+  }
+  .gallery img:nth-child(2){
+    transform: translate(-30%, 10%);
+  }
+  .gallery img:nth-child(3){
+    transform: translate(-50%, 30%);
+  }
+  .gallery img:nth-child(4) {
+    transform: translate(-70%, 40%);
+  }
+}
+@media (max-width: 480px) {
+  .gallery img:nth-child(2),
+  .gallery img:nth-child(3),
+  .gallery img:nth-child(4) {
+    transform: translate(-40%, 40%);
+  }
+}
