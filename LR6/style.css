@@ -23,15 +23,8 @@ html {
 }
 /*nth-child - псевдокласс*/
 .grid > article:nth-child(1) { grid-area: a; }
-.grid > article:nth-child(2) { grid-area: b; }
 .grid > article:nth-child(3) { grid-area: c; }
-.grid > article:nth-child(4) { grid-area: d; }
-.grid > article:nth-child(5) { grid-area: e; }
-.grid > article:nth-child(6) { grid-area: f; }
-.grid > article:nth-child(7) { grid-area: g; }
-.grid > article:nth-child(8) { grid-area: h; }
 .grid > article:nth-child(9) { grid-area: i; }
-.grid > article:nth-child(10) { grid-area: j; }
 
   article {
     padding: 10px;
